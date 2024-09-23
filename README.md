@@ -88,12 +88,8 @@ The results from all the WPs are presented using a provided presentation templat
 - **MATLAB/Simulink**: For simulating system dynamics, designing controllers, and testing their performance.
 - **Control Theory**: Applied for designing and analyzing controllers, including linear feedback and more advanced methods like feedback linearization and gain scheduling.
 
-## Conclusion
-
-The goal of this project is to explore multiple control strategies to stabilize a mechanical system and optimize its performance. Through the design and evaluation of controllers such as linear feedback, feedback linearization, and gain scheduling, the project provides a deep understanding of control system design and performance evaluation in nonlinear systems.
 
 ---
-
 ## References
 
 1. **MATLAB Documentation**: [MATLAB & Simulink Documentation](https://www.mathworks
