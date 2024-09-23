@@ -1,0 +1,22 @@
+%% Linearizzazione
+m = 1; 
+l = 1;
+b = 0.1;
+g = 9.81;
+
+A=[0 1; g/l -b/(m*l^2)]
+B=[0; 1/(m*l^2)]
+C= [1 0]
+D=0
+
+Wr = [B A*B]
+r=rank(Wr)
+% Il rango è pieno quindi il sistema è raggiungibile
+
+Qz=1.055*eye(2)
+Qu= 0.000000003*eye(1)
+
+[K,S,P] = lqr(A,B,Qz,Qu);
+K
+S
+P
