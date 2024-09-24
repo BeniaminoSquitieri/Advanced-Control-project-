@@ -92,5 +92,5 @@ The results from all the WPs are presented using a provided presentation templat
 ---
 ## References
 
-1. **MATLAB Documentation**: [MATLAB & Simulink Documentation](https://www.mathworks
+1. **MATLAB Documentation**: [MATLAB & Simulink Documentation](https://www.mathworks)
 
